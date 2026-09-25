@@ -1,0 +1,5 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0107.jpg,xe tối góc trái dưới bị mép dưới cắt (x≈214–373 y≈624–720; dòng 25 labels/round1/frame_0107.txt),added,AI bỏ sót xe khuất trong góc tối bên trái. Luật 'Xe bị cắt ở mép ảnh': chỉ vẽ box cho phần nằm trong ảnh
+1,frame_0182.jpg,xe trắng đèn hậu đỏ bên phải giữa ảnh (x≈942–1048 y≈370–439; dòng 4 labels/round1/frame_0182.txt),edited,Box AI đè sang xe bên phải (mép phải x≈1069). Luật 'Nhìn rõ thân xe': box ôm sát thân xe nên kéo mép phải về x≈1048
+1,frame_0227.jpg,box AI trùm 3 xe sát nhau ở làn trái (x≈304–461 y≈342–412),deleted,Luật 'Hai xe đứng sát nhau': vẽ box riêng không gộp. Xóa box gộp; xe bên trái được thêm box riêng (dòng 13) còn xe tải và xe bên phải có box riêng (dòng 12 và 10)
+1,frame_0227.jpg,xe tải giữa ảnh (x≈320–423 y≈366–494; dòng 12 labels/round1/frame_0227.txt),edited,Box AI lấn sang xe bên trái (mép trái x≈292). Luật 'Nhìn rõ thân xe': box ôm sát thân xe tải nên kéo mép trái về x≈320

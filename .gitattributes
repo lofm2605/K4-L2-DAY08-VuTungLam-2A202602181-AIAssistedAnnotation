@@ -1,0 +1,4 @@
+# blind_lock.json lưu SHA-256 theo byte của file này; không để git đổi CRLF/LF khi commit.
+reports/BLIND_SCAN.md -text
+# check_submission.py so SHA-256 nhãn test với bản phát hành (LF); không để Windows đổi sang CRLF.
+data/test/labels/*.txt text eol=lf
